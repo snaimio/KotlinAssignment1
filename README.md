@@ -1,7 +1,7 @@
 <div align="center">
 
-# 📊 Kotlin Student Analytics & Performance Engine
-### Algorithmic Grade Evaluation, Statistical Analytics & Null Safety in Kotlin
+# 📊 Kotlin Academic & Performance Analytics Engine
+### Statistical Calculations, GPA Mapping & Functional Data Aggregation in Kotlin
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.0%2B-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Algorithms](https://img.shields.io/badge/Algorithms-Statistical%20Math-00C853?style=for-the-badge)](https://kotlinlang.org/)
@@ -10,7 +10,7 @@
 
 <br/>
 
-**A high-precision Kotlin analytics engine performing academic statistical calculations, GPA conversions, median/mean aggregation, and robust input validation.**
+**A high-precision Kotlin computation engine performing academic statistical calculations, GPA conversions, median/mean distribution analysis, and strict null-safe input validation.**
 
 </div>
 
@@ -19,24 +19,25 @@
 ---
 
 ## 📌 Technical Overview
-This project demonstrates idiomatic Kotlin syntax for data evaluation and statistical computation. It handles score validation, letter grade mapping, and class distribution analytics using functional collection operations.
+This engine demonstrates idiomatic Kotlin architectures for data analytics and statistical computation. It processes academic records, scores, grade scales, and class-wide statistics using functional collection operators and immutable data models.
 
-### 💼 Technical Highlights
-- **Functional Collection Operations**: Utilizes `.filter()`, `.map()`, `.average()`, and `.groupBy()` for mathematical data aggregation.
-- **Compile-Time Null Safety**: Guarantees zero null-pointer exceptions via Kotlin's safe call (`?.`) and Elvis (`?:`) operators.
-- **Automated Grade Point Mapping**: Efficient `when` expression pattern matching for letter grade and GPA conversions.
+### 💼 Core Technical Highlights
+- **Functional Collection Pipelines**: Leverages `.filter()`, `.map()`, `.average()`, `.groupBy()`, and `.fold()` for concise mathematical computations.
+- **Compile-Time Null Safety**: Guarantees zero null-pointer exceptions through Kotlin safe calls (`?.`), Elvis operator (`?:`), and smart casts.
+- **Automated Grade Point Mapping**: High-performance `when` expression pattern matching for letter grade and GPA scale conversions.
+- **Statistical Metric Suite**: Computes mean, median, standard variance, highest/lowest percentiles, and weighted distributions.
 
 ---
 
-## 🚀 Setup & Run
+## 🚀 Setup & Execution
 1. Clone the repository:
    ```bash
-   git clone https://github.com/snaimio/KotlinAssignment1.git
-   cd KotlinAssignment1
+   git clone https://github.com/snaimio/student-analytics-performance-engine.git
+   cd student-analytics-performance-engine
    ```
-2. Execute with Kotlin CLI or IntelliJ IDEA:
+2. Compile and run via Kotlin CLI or IntelliJ IDEA:
    ```bash
-   kotlinc src/Main.kt -include-runtime -d app.jar && java -jar app.jar
+   kotlinc src/Main.kt -include-runtime -d engine.jar && java -jar engine.jar
    ```
 
 ---
